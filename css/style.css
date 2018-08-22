@@ -1,11 +1,12 @@
 @import url("../fonts/glyphicons-halflings-regular.woff2");
 
 body{
-  height: 5000px
+  height: 5000px;
+  padding: 50px;
 }
 
-h1{
-  position: fixed;
+.jumbotron{
+  background: pink;
 }
 
 .block{
@@ -61,4 +62,9 @@ section{
     background: black;
     border-radius: 25%
   }
+}
+
+.glyphicons {
+  color: white;
+  font-size: 12px;
 }
