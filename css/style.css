@@ -1,11 +1,27 @@
-@import url("../fonts/glyphicons-halflings-regular.woff2");
+@import url("../fonts/glyphicons-halflings-regular.woff2, glyphicons-halflings-regular.woff");
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script|Lato");
 @import url("../fonts/fontawesome-free-5.2.0-web/");
 
-body{
-  padding: 50px;
+body {
+  padding: 20px;
 }
 
-.well{
-  
+.well-row {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.well {
+  min-height: 100px;
+}
+
+.navbar-brand {
+  height: 40px;
+  width: 100px;
+  margin: 5px 0 0 15px;
+  border-radius: 5px;
+}
+
+.nav {
+  margin-top: 5px;
 }
